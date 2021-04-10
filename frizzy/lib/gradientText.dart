@@ -5,7 +5,7 @@ import 'package:frizzy/sizeconfig.dart';
 class GradientText extends StatelessWidget {
   GradientText(
       this.text, {
-        @required this.gradient,
+        this.gradient,
       });
 
   final String text;
@@ -24,6 +24,7 @@ class GradientText extends StatelessWidget {
         text,
           style: GoogleFonts.sedgwickAveDisplay(
               textStyle: TextStyle(
+                color: Colors.white,
                   fontSize: h * 0.07,
                   fontWeight: FontWeight.bold)),
       ),

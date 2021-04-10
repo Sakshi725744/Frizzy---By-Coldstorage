@@ -10,8 +10,9 @@ class headingGradient extends StatelessWidget {
     double w = SizeConfig.safeBlockHorizontal * 100;
     return GradientText('FRIZZY',
         gradient: LinearGradient(colors: [
-          Color(0xff40E0D0).withOpacity(0.62),
           Color(0xff218588).withOpacity(0.80),
+          Color(0xff40E0D0).withOpacity(0.62),
+
         ]),
         );
   }

@@ -246,9 +246,10 @@ class _LoginPageState extends State<LoginPage> {
         gradient: LinearGradient(
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
+
           colors: [
-            Color(0xff40E0D0).withOpacity(0.62),
-            Color(0xff218588).withOpacity(0.80),
+            Color(0xff40E0D0),
+            Color(0xff218588),
 
           ],
         ),
@@ -306,9 +307,10 @@ class _LoginPageState extends State<LoginPage> {
                           InkWell(
                             child: Text("Resend OTP",
                                 style: TextStyle(
-                                  color: Theme.of(context).primaryColor.withOpacity(0.65),
+                                    color: Colors.white,
                                   decoration: TextDecoration.underline,
                                   fontSize: h*0.022,
+                                  fontWeight: FontWeight.bold
                                 )),
                             onTap: () {
                               verifyPhone(phoneNo);
@@ -320,9 +322,10 @@ class _LoginPageState extends State<LoginPage> {
                           InkWell(
                             child: Text("Change Mobile Number",
                                 style:TextStyle(
-                                  color: Theme.of(context).primaryColor.withOpacity(0.65),
+                                  color: Colors.white,
                                   decoration: TextDecoration.underline,
                                   fontSize: h*0.022,
+                                    fontWeight: FontWeight.bold
                                 )),
                             onTap: () {
                               setState(() {

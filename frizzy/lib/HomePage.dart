@@ -32,11 +32,24 @@ class _HomePageState extends State<HomePage> {
           ),
           //SizedBox(height: h*0.1,),
           CustomListItem(
-            name: "Paste",
+            name: "Pasta",
             expiry: "2021-04-14",
             addedOn: "2021-04-09",
             thumbnail:Image.asset("images/female.png") ,
+          ),
+          CustomListItem(
+            name: "Fried Rice",
+            expiry: "2021-04-12",
+            addedOn: "2021-04-09",
+            thumbnail:Image.asset("images/female.png") ,
+          ),
+          CustomListItem(
+            name: "Apple Pie",
+            expiry: "2021-04-16",
+            addedOn: "2021-04-10",
+            thumbnail:Image.asset("images/female.png") ,
           )
+
         ],
       )
     );

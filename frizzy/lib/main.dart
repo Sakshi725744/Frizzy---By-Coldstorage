@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          accentColor: Color(0xff00A9A9),
+          accentColor: Colors.white,
           buttonColor: Color(0xff00A9A9),
           primaryColor: Color(0xfff98f45),
           textTheme: GoogleFonts.gfsNeohellenicTextTheme(

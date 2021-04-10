@@ -37,7 +37,7 @@ class CustomListItem extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(10)),
           border: Border.all(
             width: 2,
-            color:Color(0xff218588) ,
+            color:_daysLeft==0?Colors.red:Color(0xff218588) ,
             style: BorderStyle.solid,
           ),),
 

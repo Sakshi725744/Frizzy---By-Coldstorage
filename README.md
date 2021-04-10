@@ -9,3 +9,19 @@ In India, the household food waste estimate is 50 kg per capita per year, or 68,
 All the food produced but never eaten would be sufficient to feed two billion people. That's more than twice the number of undernourished people across the globe.
 So to adress this issue and to solve the root cause, we present you frizzy
 A Prodcut consisting of a hardwear box and an app to go along with it with this you'll always get to knows what's in youe fridhe and when is it going to expire be it a cokked food or a packaged food, with our computer vision model we'll identfy the date of exipery and it'll be sent to the firebase from which we'll inculcate in the app, Using the app you'll get to know all the food items that you've in your fridge and when are they going to expire, and dont worry we'll reminad you well in hand to consume it before it gets expired
+
+## User Interface: <br>
+<table>
+  <tr>
+    <td> <img src="App images/phone.jpeg" width="250" height="500"></td>
+    <td> <img src="App images/otp.jpeg" width="250" height="500"></td>
+      <td> <img src="App images/items.jpeg" width="250" height="500"></td>
+
+  </tr>
+  <tr>
+    <td> <img src="App images/itemDetail.jpeg" width="250" height="500"></td>
+  <td> <img src="App images/calendar.jpeg" width="250" height="500"></td>
+  
+  </tr>
+  
+</table>

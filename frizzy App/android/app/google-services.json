@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "369007911673",
+    "project_id": "frizzy-bb8c1",
+    "storage_bucket": "frizzy-bb8c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369007911673:android:497aeeeef34711237eb828",
+        "android_client_info": {
+          "package_name": "com.example.frizzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369007911673-u5289rj6cmp0eehbj7linlirg9pa5fop.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frizzy",
+            "certificate_hash": "a6967411a90863f266d92522d7e01a8415841dfd"
+          }
+        },
+        {
+          "client_id": "369007911673-cf7e2uk47q3jehbsr4h0p9483i0tb9h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjDx8vORxjGsS5Mppij4qYBa4iOPI1WA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369007911673-cf7e2uk47q3jehbsr4h0p9483i0tb9h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

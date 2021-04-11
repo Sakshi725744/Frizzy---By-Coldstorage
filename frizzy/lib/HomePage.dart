@@ -30,25 +30,26 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
-          //SizedBox(height: h*0.1,),
-          CustomListItem(
-            name: "Pasta",
-            expiry: "2021-04-14",
-            addedOn: "2021-04-09",
-            thumbnail:Image.asset("images/female.png") ,
+          Expanded(
+            streamFirebase(),
           ),
-          CustomListItem(
-            name: "Fried Rice",
-            expiry: "2021-04-12",
-            addedOn: "2021-04-09",
-            thumbnail:Image.asset("images/female.png") ,
-          ),
-          CustomListItem(
-            name: "Apple Pie",
-            expiry: "2021-04-16",
-            addedOn: "2021-04-10",
-            thumbnail:Image.asset("images/female.png") ,
-          )
+          Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: const EdgeInsets.all(15),
+                
+                  child: Text(
+                    "On pressing the Camera/Barcode button \n live data of the food with expiry \n will be sent to the app",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Theme.of(context).primaryColor,
+                        fontSize: 17,
+                        fontWeight: FontWeight.bold),
+                  ),
+                 
+                
+              ),
+            )
 
         ],
       )
